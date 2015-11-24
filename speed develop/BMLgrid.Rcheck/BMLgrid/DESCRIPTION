@@ -1,0 +1,16 @@
+Package: BMLgrid
+Type: Package
+Title: Bihman-Middleton-Levin Traffic Model
+Version: 1.0
+Date: 2015-04-30
+Author: Yin Zhang
+Maintainer: Yin Zhang <yinzh@ucdavis.edu>
+Description: This is a package for create and simulate Biham-Middleton-Levine(BML) Traffic Model.  
+License: GPL-2
+Suggests: testthat
+Packaged: 2015-05-17 05:31:05 UTC; yinzhang
+<<<<<<< HEAD
+Built: R 3.1.1; x86_64-apple-darwin10.8.0; 2015-05-17 18:07:14 UTC; unix
+=======
+Built: R 3.1.1; x86_64-apple-darwin10.8.0; 2015-05-17 05:32:51 UTC; unix
+>>>>>>> 7b34243db4c1c505d35c8829fb0ba27ac3666b4c

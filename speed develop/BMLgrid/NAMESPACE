@@ -1,0 +1,13 @@
+S3method(plot,BML)
+S3method(summary,BML)
+S3method(print, summary.BML)
+export(createBMLGrid)
+export(move)
+export(plot.BML)
+export(print.summary.BML)
+export(summary.BML)
+export(runBMLGrid)
+export(moveslow)
+export(crunBMLGrid)
+
+useDynLib(BMLgrid)

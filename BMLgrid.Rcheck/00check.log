@@ -1,0 +1,125 @@
+* using log directory ‘/Users/mac/Desktop/BMLgrid.Rcheck’
+* using R version 3.1.1 (2014-07-10)
+* using platform: x86_64-apple-darwin10.8.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘BMLgrid/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘BMLgrid’ version ‘1.0’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .DS_Store
+  tests/.Rapp.history
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘BMLgrid’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... WARNING
+summary:
+  function(object, ...)
+summary.BML:
+  function(grid, numSteps, ...)
+
+summary:
+  function(object, ...)
+summary.BML:
+  function(grid, numSteps, ...)
+
+plot:
+  function(x, ...)
+plot.BML:
+  function(grid, main, ...)
+
+plot:
+  function(x, ...)
+plot.BML:
+  function(grid, main, ...)
+
+See section ‘Generic functions and methods’ of the ‘Writing R
+Extensions’ manual.
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... WARNING
+prepare_Rd: BMLgrid-package.Rd:29: All text must be in a section
+prepare_Rd: BMLgrid-package.Rd:30: All text must be in a section
+prepare_Rd: BMLgrid-package.Rd:26-28: Dropping empty section \references
+prepare_Rd: BMLgrid-package.Rd:32-33: Dropping empty section \seealso
+prepare_Rd: createBMLGrid.Rd:28-30: Dropping empty section \details
+prepare_Rd: createBMLGrid.Rd:40-42: Dropping empty section \note
+prepare_Rd: createBMLGrid.Rd:37-39: Dropping empty section \author
+prepare_Rd: createBMLGrid.Rd:34-36: Dropping empty section \references
+prepare_Rd: createBMLGrid.Rd:46-48: Dropping empty section \seealso
+prepare_Rd: move.Rd:22-24: Dropping empty section \details
+prepare_Rd: move.Rd:38-40: Dropping empty section \note
+prepare_Rd: move.Rd:35-37: Dropping empty section \author
+prepare_Rd: move.Rd:32-34: Dropping empty section \references
+prepare_Rd: move.Rd:44-46: Dropping empty section \seealso
+prepare_Rd: plot.BML.Rd:25-27: Dropping empty section \details
+prepare_Rd: plot.BML.Rd:28-34: Dropping empty section \value
+prepare_Rd: plot.BML.Rd:41-43: Dropping empty section \note
+prepare_Rd: plot.BML.Rd:38-40: Dropping empty section \author
+prepare_Rd: plot.BML.Rd:35-37: Dropping empty section \references
+prepare_Rd: plot.BML.Rd:47-49: Dropping empty section \seealso
+prepare_Rd: print.summary.BML.Rd:22-24: Dropping empty section \details
+prepare_Rd: print.summary.BML.Rd:34-36: Dropping empty section \note
+prepare_Rd: print.summary.BML.Rd:31-33: Dropping empty section \author
+prepare_Rd: print.summary.BML.Rd:28-30: Dropping empty section \references
+prepare_Rd: print.summary.BML.Rd:40-42: Dropping empty section \seealso
+prepare_Rd: runBMLGrid.Rd:22-24: Dropping empty section \details
+prepare_Rd: runBMLGrid.Rd:37-39: Dropping empty section \note
+prepare_Rd: runBMLGrid.Rd:34-36: Dropping empty section \author
+prepare_Rd: runBMLGrid.Rd:31-33: Dropping empty section \references
+prepare_Rd: runBMLGrid.Rd:43-45: Dropping empty section \seealso
+prepare_Rd: summary.BML.Rd:25-27: Dropping empty section \details
+prepare_Rd: summary.BML.Rd:46-48: Dropping empty section \note
+prepare_Rd: summary.BML.Rd:43-45: Dropping empty section \author
+prepare_Rd: summary.BML.Rd:40-42: Dropping empty section \references
+prepare_Rd: summary.BML.Rd:52-54: Dropping empty section \seealso
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... NOTE
+S3 methods shown with full name in documentation object 'plot.BML':
+  ‘plot.BML’
+
+S3 methods shown with full name in documentation object 'print.summary.BML':
+  ‘print.summary.BML’
+
+S3 methods shown with full name in documentation object 'summary.BML':
+  ‘summary.BML’
+
+The \usage entries for S3 methods should use the \method markup and not
+their full name.
+See the chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ... OK
+  Running ‘testthat.R’
+* checking PDF version of manual ... OK
+WARNING: There were 2 warnings.
+NOTE: There were 2 notes.

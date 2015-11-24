@@ -1,0 +1,9 @@
+BMLgrid-package         Bihman-Middleton-Levin Traffic Model
+createBMLGrid           Create a BMLGrid
+crunBMLGrid             Run a BML grid in steps in C
+move                    Move a grid at a exact time step
+moveslow                Move a grid in a slow way
+plot.BML                Plot a BML grid
+print.summary.BML       Print the summary for BML grid
+runBMLGrid              Run a BML grid in steps in R
+summary.BML             Summary for BML grid

@@ -1,0 +1,10 @@
+* installing *source* package ‘BMLgrid’ ...
+** R
+** preparing package for lazy loading
+** help
+警告: /Users/mac/Desktop/BMLgrid/man/BMLgrid-package.Rd:29: All text must be in a section
+警告: /Users/mac/Desktop/BMLgrid/man/BMLgrid-package.Rd:30: All text must be in a section
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (BMLgrid)

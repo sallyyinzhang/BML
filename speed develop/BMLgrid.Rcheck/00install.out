@@ -1,0 +1,12 @@
+* installing *source* package ‘BMLgrid’ ...
+** libs
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c crunBMLGrid.c -o crunBMLGrid.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/usr/local/lib -L/usr/local/lib -o BMLgrid.so crunBMLGrid.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Users/mac/Desktop/stat242_2015/Assignment4/BMLgrid.Rcheck/BMLgrid/libs
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (BMLgrid)
